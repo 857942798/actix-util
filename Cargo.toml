@@ -1,0 +1,19 @@
+[package]
+name = "actix-util"
+version = "0.1.0"
+authors = ["actix-util <actix-util@qianxin.com>"]
+edition = "2021"
+
+[lib]
+name = "actix_util"
+path = "src/lib.rs"
+
+[dependencies]
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+diesel = "1.4.4"
+thiserror = "1.0.22"
+toml = "0.5"
+actix-web = "4.0.1"
+actix-http = "3.0.0"

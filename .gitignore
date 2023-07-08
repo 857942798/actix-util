@@ -1,0 +1,11 @@
+/target
+**/*.rs.bk
+Cargo.lock
+/.vscode
+/.run
+/store
+.idea
+**/.DS_Store
+.env
+/.cargo
+test.json
